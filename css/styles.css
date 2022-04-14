@@ -1,0 +1,206 @@
+:root{
+    --primary-text-color:#212121;
+    --secondary-test-color:#757575;
+    --hero-text-color:#FFFFFF;
+    --active-color-change:#2196F3;
+    --secondary-color-background:#2F303A;
+    --background-color: #E5E5E5;
+    --background-color-team:#F5F4FA ;
+}
+body {
+    font-family:'Roboto'; 
+}
+ul{
+list-style:none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Логотип */
+
+.logo{
+color:var(--active-color-change);
+font-family:'Raleway';
+text-decoration: none;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+.logo-header{
+    color:var(--primary-text-color);
+}
+.logo-footer {
+    color: var(--hero-text-color)
+}
+
+/* Header */
+.header{
+    background-color: var(--hero-text-color);
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--active-color-change);
+}
+.header-link.current{
+    color: var(--active-color-change);
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--primary-text-color);
+}
+.header-info-item:hover,
+.header-info-item:focus {
+    color: var(--active-color-change);
+}
+.header-info-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--secondary-test-color);
+}
+/* Hero */
+.hero{
+    background-color:var(--secondary-color-background);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-text-color);
+}
+.button-hero{
+    background-color:var(--active-color-change);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--hero-text-color)
+}
+.button-hero:hover,
+.button-hero:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* benefits */
+
+}
+.benefits-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+.benefits-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-test-color);
+}
+/* activity */
+
+.activity-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+/* team */
+.team{
+    background-color:var(--background-color-team);
+}
+.team-section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.team-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-text{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-test-color);
+}
+/* footer */
+.footer{
+    background-color:var(--secondary-color-background);
+}
+.footer-address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--hero-text-color);
+}
+.footer-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: #2196F3;
+}
+
+/* portfolio-hero */
+
+ .button-hero{
+    background-color: var(--background-color-team);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+ }
+.button-hero:hover,
+.button-hero:focus{
+     background-color: var(--active-color-change);
+     color: var(--hero-text-color);
+ }
+.portfolio-hero-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.portfolio-hero-subtitle{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
