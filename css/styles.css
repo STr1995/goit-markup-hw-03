@@ -37,7 +37,6 @@ img{
 /*------------------------ Логотип ------------------------- */
 
 .logo{
-margin-right: 93px;
 
 color:var(--active-color-change);
 font-family:'Raleway';
@@ -59,11 +58,9 @@ letter-spacing: 0.03em;
 /*--------------------------- Header ------------------------ */
 
 .header{ 
-    padding-top: 25px;
-    padding-bottom: 25px;
 
     background-color: var(--hero-text-color);
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .main-nav{
     display: flex;
@@ -99,6 +96,9 @@ letter-spacing: 0.03em;
 .header-info-link:focus{
     color: var(--active-color-change);
 }
+.header-list{
+    margin-left: 93px;
+}
 .header-info{
     margin-left: 330px;
 }
@@ -126,7 +126,8 @@ letter-spacing: 0.03em;
 }
 
 .hero-title{
-    margin-top:0;
+    width: 696px;
+    margin: 0 auto;
     margin-bottom: 30px;
 
     font-weight: 900;
@@ -137,26 +138,26 @@ letter-spacing: 0.03em;
     color: var(--hero-text-color);
 }
 
-.button-hero{
-    border-radius: 4px;
-    padding: 10px 32px;
+.button-hero-link{
     min-width: 200px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
     background-color:var(--active-color-change);
     color: var(--hero-text-color);
-    font-family: 'Roboto';
+    font-family:inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em; 
-}
+} 
 
-.button-hero:hover,
-.button-hero:focus{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+.button-hero-link:hover,
+.button-hero-link:focus{
+     
 }
 
 /*------------------------- benefits------------------------- */
@@ -249,7 +250,7 @@ color: var(--primary-text-color);
 }
 
 .team-content{
-    padding: 30px 60px
+    padding: 30px;
 }
 
 .team-list{
@@ -297,7 +298,7 @@ color: var(--primary-text-color);
 
 .footer-address{
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 9px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -315,10 +316,8 @@ color: var(--primary-text-color);
     color:rgba(255, 255, 255, 0.6);
 }
 
-.footer-info-item{
+.footer-info-item+.footer-info-item{
     margin-top: 9px;
-    margin-bottom: 0px;
-
 }
 
 .footer-link:hover,
@@ -335,6 +334,7 @@ color: var(--primary-text-color);
 /*------------------- portfolio-hero-button---------------- */
 
 .button-hero{
+    padding: 6px 22px;
     text-align: center;
     min-width: 73px;
     border-radius: 4px;
@@ -354,7 +354,7 @@ color: var(--primary-text-color);
     justify-content: center;
 }
 
-.button-hero{
+.portfolio-hero-link+.portfolio-hero-link{
     margin-left: 8px;
 }
 
@@ -384,19 +384,16 @@ color: var(--primary-text-color);
     margin-bottom: 0;
 }
 
- .portfolio-hero-item{
+ /* .portfolio-hero-item{
     margin-top: 30px;
-    margin-bottom: 0px;
-    border: 1px solid #EEEEEE;
- }
+ } */
  .portfolio-hero-content{
-     padding: 20px 24px;
- }
+    padding: 20px 24px;
+    border-right:1px solid #EEEEEE;
+    border-bottom:1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 
-.portfolio-hero-img{
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
+ }
 
 .portfolio-hero-title{   
     margin-top: 0px;
